@@ -42,6 +42,27 @@ li {
     list-style: none;
 }
 
+.showInput {
+    border: none;
+    width: 96%;
+    margin-right: 4%;
+    margin-bottom: 16px;
+    height: 1.4rem;
+    padding-left: 8px;
+    border-radius: 8px;
+}
+
+.showInput:focus {
+    outline: 1px dotted greenyellow;
+}
+
+#clearStorageBtn {
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
 @media (max-width: 700px) {
     #showsSection {
         width: 80vw;

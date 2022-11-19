@@ -25,6 +25,8 @@ const clearStorageBtn = document.getElementById('clearStorageBtn')
 
 // Input item to take the showName
 const inputItem = document.createElement('input')
+// Add a classname to the input for styling
+inputItem.classList.add('showInput')
 
 // Event listeners for some of the elements to be added to the dom
 

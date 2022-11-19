@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+#showsSection {
+    height: 80vh;
+    min-width: 60vw;
+    max-width: 70vw;
+    background-color: rgb(106, 207, 4);
+    border-radius: 24px;
+    padding: 40px;
+    padding-right: 24px;
+    z-index: 10;
+}
+
+section {
+    background-color: chartreuse;
+}
+
+#showsList {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    max-height: 90%;
+}
+
+li {
+    list-style: none;
+}
+
+@media (max-width: 700px) {
+    #showsSection {
+        width: 80vw;
+    }
+}

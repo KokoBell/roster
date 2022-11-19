@@ -36,18 +36,23 @@ section {
     overflow-y: scroll;
     scroll-behavior: smooth;
     max-height: 90%;
+    padding-bottom: 24px;
 }
 
 li {
     list-style: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: large;
 }
 
 .showInput {
+    font-size: large;
     border: none;
     width: 96%;
     margin-right: 4%;
     margin-bottom: 16px;
-    height: 1.4rem;
+    height: 1.8rem;
     padding-left: 8px;
     border-radius: 8px;
 }
@@ -57,10 +62,14 @@ li {
 }
 
 #clearStorageBtn {
+    position: relative;
+    bottom: 6%;
+    color: darkslategray;
     border: none;
     padding: 12px;
     border-radius: 8px;
     font-weight: 600;
+    margin-bottom: 16px;
 }
 
 @media (max-width: 700px) {

@@ -8,7 +8,8 @@ const defaultList = [{ 'name': 'Modern Family', 'url': 'https://soap2day.cc/Tczo
 { 'name': 'Demon Slayer', 'url': 'https://9anime.to/watch/demon-slayer-kimetsu-no-yaiba.6q67' },
 { 'name': 'Inside Job', 'url': 'https://www.netflix.com/watch/81148960' },
 { 'name': "Bob's Burgers", 'url': 'https://soap2day.cc/TczozMToiMTQ1fHwxMDUuMjI1LjEzLjE1M3x8MTY2ODcxNjY0NyI7.htmlI' },
-{ 'name': 'Misty', 'url': 'https://www.netflix.com/watch/81029907' }]
+{ 'name': 'Misty', 'url': 'https://www.netflix.com/watch/81029907' },
+{ 'name': 'Spy Family', 'url': 'https://9anime.to/watch/spy-x-family-part-2.vvvo6/ep-6' }]
 
 // Determine the current value of the list
 const createCurrentList = () => {

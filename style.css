@@ -28,6 +28,10 @@ body {
     z-index: 10;
 }
 
+h1 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
 #showsList {
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -59,6 +63,15 @@ li {
     margin-top: 8px;
     margin-bottom: 8px;
     font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 .showInput {

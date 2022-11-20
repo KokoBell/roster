@@ -82,8 +82,12 @@ inputItem.onblur = (event) => {
 // Populate the list with the current shows in the array
 const populateList = () => {
     ourShows.forEach((show) => {
+        let link = document.createElement('a')
         let listItem = document.createElement('li')
-        listItem.textContent = show.name
+        link.textContent = show.name
+        link.href = show.url
+        link.target = '_blank'
+        listItem.appendChild(link)
         showsList.appendChild(listItem)
     })
 }

@@ -33,7 +33,7 @@ body {
     scroll-behavior: smooth;
     max-height: 90%;
     background-color: chartreuse;
-    border-radius: 24px;
+    border-radius: 16px;
     padding-left: 12px;
 }
 
@@ -79,7 +79,7 @@ li {
 #clearStorageBtn {
     position: relative;
     top: -102%;
-    right: -80%;
+    right: -82%;
     color: darkslategray;
     border: none;
     padding: 12px;

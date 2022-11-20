@@ -1,4 +1,14 @@
-const defaultList = [{ 'name': 'Atlanta' }, { 'name': 'Modern Family' }, { 'name': 'Rick and Morty' }, { 'name': 'Move to Heaven' }, { 'name': 'Kung Fu Panda' }, { 'name': 'Final Space' }, { 'name': 'Girlfriends' }, { 'name': 'Mob Psycho' }, { 'name': 'Demon Slayer' }, { 'name': 'Move to Heaven' }]
+const defaultList = [{ 'name': 'Modern Family', 'url': 'https://soap2day.cc/TczozMDoiOTZ8fDEwNS4yMjUuMTMuMTUzfHwxNjY4NzE4MDQzIjs.html' },
+{ 'name': 'Rick and Morty', 'url': 'https://www.netflix.com/watch/80098733' },
+{ 'name': 'Move to Heaven', 'url': 'https://www.netflix.com/watch/81181332' },
+{ 'name': 'Kung Fu Panda', 'url': 'https://www.netflix.com/watch/81459976?' },
+{ 'name': 'Final Space', 'url': 'https://www.netflix.com/watch/81437328' },
+{ 'name': 'Girlfriends', 'url': 'https://www.netflix.com/watch/81270376' },
+{ 'name': 'Mob Psycho', 'url': 'https://9anime.to/watch/mob-psycho-100-iii.yqqv0' },
+{ 'name': 'Demon Slayer', 'url': 'https://9anime.to/watch/demon-slayer-kimetsu-no-yaiba.6q67' },
+{ 'name': 'Inside Job', 'url': 'https://www.netflix.com/watch/81148960' },
+{ 'name': "Bob's Burgers", 'url': 'https://soap2day.cc/TczozMToiMTQ1fHwxMDUuMjI1LjEzLjE1M3x8MTY2ODcxNjY0NyI7.htmlI' },
+{ 'name': 'Misty', 'url': 'https://www.netflix.com/watch/81029907' }]
 
 // Determine the current value of the list
 const createCurrentList = () => {
@@ -45,7 +55,7 @@ clearStorageBtn.onclick = () => {
 inputItem.onkeydown = (event) => {
     // Fix the bug that presses enter twice
     //console.log('Keydown')
-    inputItem.onblur = () => {}
+    inputItem.onblur = () => { }
     if (event.key === "Enter") {
         addShowToList(event.target.value)
         addInputField()

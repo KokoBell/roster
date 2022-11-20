@@ -1,4 +1,4 @@
-const defaultList = [{ 'name': 'Atlanta' }, { 'name': 'Modern Family' }, { 'name': 'Rick and Morty' }, { 'name': 'Move to Heaven' }]
+const defaultList = [{ 'name': 'Atlanta' }, { 'name': 'Modern Family' }, { 'name': 'Rick and Morty' }, { 'name': 'Move to Heaven' }, { 'name': 'Kung Fu Panda' }, { 'name': 'Final Space' }, { 'name': 'Girlfriends' }, { 'name': 'Mob Psycho' }, { 'name': 'Demon Slayer' }, { 'name': 'Move to Heaven' }]
 
 // Determine the current value of the list
 const createCurrentList = () => {

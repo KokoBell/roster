@@ -17,8 +17,17 @@
         <button id="clearStorageBtn">
             Reset
         </button>
+        <a href="add.html" class="addShowBtn">Add Show</a>
     </section>
 </body>
-<script src="script.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://unpkg.com/@supabase/supabase-js"></script>
+<script>
+    const { createClient } = supabase
+    const _supabase = createClient('https://bzvbomqgsywvlcagdlks.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ6dmJvbXFnc3l3dmxjYWdkbGtzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzAzNTI4NjMsImV4cCI6MTk4NTkyODg2M30.UKrUCJWpTTPSLJQkFJKFSGlk_6IxPLe0XlxBw9NccOA')
+
+    console.log('Supabase Instance: ', _supabase)
+    // ...
+</script>
 
 </html>

@@ -31,7 +31,7 @@ const ourShows = createCurrentList()
 // The container for the list of shows
 const showsList = document.getElementById('showsList')
 
-// The button to add a show
+// The button clear all storage
 const clearStorageBtn = document.getElementById('clearStorageBtn')
 
 // Input item to take the showName
@@ -51,6 +51,7 @@ clearStorageBtn.onclick = () => {
     populateList()
     addInputField()
 }
+
 
 // Event listeners for the input item
 inputItem.onkeydown = (event) => {
@@ -106,6 +107,11 @@ const addShowToList = (name) => {
     ourShows.push({ 'name': name })
     showsList.appendChild(show)
     updateLocalStorage()
+}
+
+// Add show to database
+const addShow = () => {
+    console.log('hellloooo')
 }
 
 // Update the localStorage with the latest information
